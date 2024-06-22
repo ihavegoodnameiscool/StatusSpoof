@@ -3,7 +3,7 @@ import Settings from "./Settings";
 
 export default {
     onLoad: () => {
-        console.log('hi')
+        console.log('h23123i')
         logger.log("Starting status spoof!");
         const oldWebsocket = WebSocket
         oldWebsocket.prototype.send = new Proxy(oldWebsocket.prototype.send, {
